@@ -1,2 +1,2 @@
 # react-native-lab-efects-refs
-![exemplu video](exemplu.mp4)
+![exemplu video](exemplu-ezgif.com-video-to-gif-converter.gif)
