@@ -1,0 +1,34 @@
+{
+  "prolog": "Noaptea de 13 spre 14. Muzeul Național de Istorie.\n\nDiamantul „Ochiul Nopții” a dispărut din vitrina blindată, iar alarma nu a sunat niciodată. Singura urmă: un bilet semnat „Maestrul Umbrelor”.\n\nDirectorul te-a sunat pe tine, Detectiv {nume}. „Ai timp până dimineață”, a șoptit el.\n\nUșa muzeului se închide în urma ta. Ancheta începe.",
+  "epilog": "Zorii găsesc diamantul înapoi în vitrină, strălucind ca și cum nimic nu s-ar fi întâmplat.\n\nMaestrul Umbrelor a dispărut, dar a lăsat un ultim bilet pe pervaz:\n„Ne vedem data viitoare, Detectiv {nume}.”",
+  "ui": {
+    "nume": {
+      "stampila": "DOSAR CONFIDENȚIAL",
+      "titlu": "Diamantul dispărut",
+      "intrebare": "Cum te cheamă, detectivule?",
+      "placeholder": "Numele tău",
+      "buton": "Deschide dosarul"
+    },
+    "poveste": {
+      "etichetaProlog": "PROLOG",
+      "etichetaDosar": "DOSARUL {n} / {total}",
+      "butonProlog": "Intru în muzeu",
+      "butonNivel": "Începe provocarea"
+    },
+    "quest": {
+      "antet": "{nume} · DOSARUL {n}/{total}",
+      "urmatorulIndiciu": "Următorul indiciu în {s} s...",
+      "lupa": "🔍 Folosește lupa (+{penalizare} s)",
+      "placeholderCuvant": "Scrie răspunsul...",
+      "verifica": "Verifică",
+      "anuleaza": "↶ Anulează ultima alegere",
+      "raspunsGresit": "✖ Răspuns greșit. Seiful nu cedează."
+    },
+    "final": {
+      "stampila": "CAZ REZOLVAT",
+      "titlu": "Bravo, Detectiv {nume}!",
+      "statistici": "Timp: {timp} s · Greșeli: {greseli} · Lupe: {lupe}",
+      "buton": "Un caz nou"
+    }
+  }
+}

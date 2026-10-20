@@ -1,0 +1,77 @@
+[
+  {
+    "titlu": "Seiful din birou",
+    "tip": "cod",
+    "poveste": "Începi de la biroul directorului. Ploaia lovește geamurile, iar lampa pâlpâie. Seiful e întredeschis, dar un mecanism cu patru cifre îl ține blocat. Pe ușa lui, un bilet scris în grabă: prima provocare a Maestrului.",
+    "raspuns": "7364",
+    "indicii": [
+      {
+        "pas": 0,
+        "text": "Pe bilet: «Zilele unei săptămâni. Laturile unui triunghi. Fețele unui zar. Anotimpurile unui an.»"
+      },
+      { "pas": 1, "text": "Cifrele apar în aceeași ordine ca în bilet." },
+      { "pas": 2, "text": "Suma cifrelor este 20." },
+      { "pas": 3, "text": "Codul începe cu 73." }
+    ]
+  },
+  {
+    "titlu": "Arhiva veche",
+    "tip": "cuvant",
+    "poveste": "Seiful scoate un clic. Înăuntru: o cheie rece și o hartă ruptă care duce la arhiva din subsol. Pe ușa grea de stejar, cineva a zgâriat o ghicitoare cu un cui. Nu există clanță, doar un răspuns de rostit.",
+    "raspuns": ["UMBRA"],
+    "indicii": [
+      {
+        "pas": 0,
+        "text": "Pe ușă: «Te însoțesc la lumină, dar dispar în întuneric complet. Cine sunt?»"
+      },
+      {
+        "pas": 1,
+        "text": "Nu ai cum să mă atingi, deși sunt mereu lângă tine."
+      },
+      { "pas": 2, "text": "Începe cu litera U." },
+      { "pas": 3, "text": "Are 5 litere și se termină cu A." }
+    ]
+  },
+  {
+    "titlu": "Sala vitrinelor",
+    "tip": "alegere",
+    "poveste": "Arhiva ascunde o sală secretă, cu trei vitrine de sticlă. Într-una strălucește adevăratul diamant; celelalte ascund capcane. Maestrul râde din umbră: „Doar una dintre plăcuțe spune adevărul.”",
+    "optiuni": [
+      { "id": "A", "eticheta": "Vitrina A" },
+      { "id": "B", "eticheta": "Vitrina B" },
+      { "id": "C", "eticheta": "Vitrina C" }
+    ],
+    "raspuns": "C",
+    "indicii": [
+      {
+        "pas": 0,
+        "text": "A: «Diamantul este aici.»\nB: «Diamantul nu este în vitrina A.»\nC: «Diamantul nu este aici.»\nExact o plăcuță spune adevărul."
+      },
+      { "pas": 1, "text": "Dacă ar fi în A, două plăcuțe ar fi adevărate." },
+      { "pas": 2, "text": "Nici în B nu poate fi: tot două ar fi adevărate." },
+      { "pas": 3, "text": "Răspunsul nu este nici A, nici B." }
+    ]
+  },
+  {
+    "titlu": "Camera matematicianului",
+    "tip": "ordonare",
+    "poveste": "Diamantul e în mâna ta, dar ieșirea e blocată de o placă cu cinci simboluri, iar afară se luminează de ziuă. Pe perete, calcule făcute cu cretă roșie. Ultima ușă se deschide doar dacă pui simbolurile în ordinea corectă.",
+    "optiuni": [
+      { "id": "a", "eticheta": "3²" },
+      { "id": "b", "eticheta": "2⁴" },
+      { "id": "c", "eticheta": "√16" },
+      { "id": "d", "eticheta": "10" },
+      { "id": "e", "eticheta": "2³" }
+    ],
+    "raspuns": "c|e|a|d|b",
+    "indicii": [
+      {
+        "pas": 0,
+        "text": "Atinge simbolurile de la cea mai mică valoare la cea mai mare."
+      },
+      { "pas": 1, "text": "Cea mai mică valoare este √16." },
+      { "pas": 2, "text": "Cea mai mare valoare este 2⁴." },
+      { "pas": 3, "text": "Ordinea începe cu √16, apoi 2³." }
+    ]
+  }
+]
